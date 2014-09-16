@@ -34,7 +34,6 @@
 		0D05744219C5F4BA0094C49D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D05744119C5F4BA0094C49D /* MobileCoreServices.framework */; };
 		0D05744419C5F4CC0094C49D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D05744319C5F4CC0094C49D /* ImageIO.framework */; };
 		0D05744619C5F4D60094C49D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D05744519C5F4D60094C49D /* AdSupport.framework */; };
-		238F70CE19C8A5A600D9BBD7 /* AppScotch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238F70CD19C8A5A600D9BBD7 /* AppScotch.framework */; };
 		50798D8419C7AA4300AFE363 /* AppScotch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50798D8319C7AA4300AFE363 /* AppScotch.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -81,7 +80,7 @@
 		0D05744119C5F4BA0094C49D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0D05744319C5F4CC0094C49D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		0D05744519C5F4D60094C49D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		238F70CD19C8A5A600D9BBD7 /* AppScotch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppScotch.framework; path = ../../../AppScotch.framework; sourceTree = "<group>"; };
+		0DCABB9419C8A7CE00009BA6 /* AppScotch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppScotch.framework; path = ../../../AppScotch.framework; sourceTree = "<group>"; };
 		50798D8319C7AA4300AFE363 /* AppScotch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppScotch.framework; path = ../../AppScotch.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -97,7 +96,7 @@
 				0D05744019C5F4B40094C49D /* CoreMedia.framework in Frameworks */,
 				0D05743C19C5F47D0094C49D /* CoreTelephony.framework in Frameworks */,
 				0D05743619C5F4690094C49D /* CoreImage.framework in Frameworks */,
-				238F70CE19C8A5A600D9BBD7 /* AppScotch.framework in Frameworks */,
+				0DCABB9519C8A7CE00009BA6 /* AppScotch.framework in Frameworks */,
 				0D05743E19C5F4890094C49D /* SystemConfiguration.framework in Frameworks */,
 				0D05743A19C5F4770094C49D /* Security.framework in Frameworks */,
 				0D05743819C5F4720094C49D /* MediaPlayer.framework in Frameworks */,
@@ -169,7 +168,7 @@
 		0D0573FB19C5F2890094C49D /* AppScotchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				238F70CD19C8A5A600D9BBD7 /* AppScotch.framework */,
+				0DCABB9419C8A7CE00009BA6 /* AppScotch.framework */,
 				0D05740419C5F2890094C49D /* AppDelegate.h */,
 				0D05740519C5F2890094C49D /* AppDelegate.m */,
 				0D05740719C5F2890094C49D /* Main_iPhone.storyboard */,
@@ -452,9 +451,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AppScotchDemo",
-					"/Users/Max/sdk-ios/GithubCandidate",
-					"/Users/kotik/projects/sdk-test/AppScotch-iOS-SDK",
+					"$(PROJECT_DIR)/../../"
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppScotchDemo/AppScotchDemo-Prefix.pch";
@@ -473,9 +470,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AppScotchDemo",
-					"/Users/Max/sdk-ios/GithubCandidate",
-					"/Users/kotik/projects/sdk-test/AppScotch-iOS-SDK",
+					"$(PROJECT_DIR)/../../"
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppScotchDemo/AppScotchDemo-Prefix.pch";
