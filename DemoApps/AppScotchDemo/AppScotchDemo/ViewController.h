@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppScotch.h"
+#import <AppScotch/AppScotch.h>
 
 @interface ViewController : UIViewController < AppScotchDelegate >
 
