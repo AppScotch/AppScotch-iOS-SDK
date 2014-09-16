@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>20BE2AC0-71AE-4E23-96B1-199155B4349C</string>
+	<string>61C45F61-131A-472F-98A5-14BC198EA5D9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AppScotchDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>23E0AA2C-756A-4E08-8EAF-96CEF27A7644</key>
-		<string>https://github.com/cmrepos/sdk-ios.git</string>
+		<key>B6258CC5-9187-4047-B284-986CF2B45D99</key>
+		<string>ssh://github.com/AppScotch/AppScotch-iOS-SDK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GithubCandidate/DemoApps/AppScotchDemo/AppScotchDemo.xcodeproj/project.xcworkspace</string>
+	<string>DemoApps/AppScotchDemo/AppScotchDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>23E0AA2C-756A-4E08-8EAF-96CEF27A7644</key>
-		<string>../../../../..</string>
+		<key>B6258CC5-9187-4047-B284-986CF2B45D99</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/cmrepos/sdk-ios.git</string>
+	<string>ssh://github.com/AppScotch/AppScotch-iOS-SDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23E0AA2C-756A-4E08-8EAF-96CEF27A7644</string>
+	<string>B6258CC5-9187-4047-B284-986CF2B45D99</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>23E0AA2C-756A-4E08-8EAF-96CEF27A7644</string>
+			<string>B6258CC5-9187-4047-B284-986CF2B45D99</string>
 			<key>IDESourceControlWCCName</key>
-			<string>sdk-ios</string>
+			<string>AppScotch-iOS-SDK</string>
 		</dict>
 	</array>
 </dict>

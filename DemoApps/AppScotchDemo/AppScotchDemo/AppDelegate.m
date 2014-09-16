@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "AppScotch/AppScotch.h"
+#import <AppScotch/AppScotch.h>
 
 @implementation AppDelegate
 
