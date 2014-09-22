@@ -10,31 +10,43 @@
 	<string>AppScotchDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B6258CC5-9187-4047-B284-986CF2B45D99</key>
+		<key>335E9E6C61FC3DC0C87FF9335463749526EF8F8E</key>
 		<string>ssh://github.com/AppScotch/AppScotch-iOS-SDK.git</string>
+		<key>87F17DD6B18379EB1067763CAFD764BCC806ED91</key>
+		<string>https://github.com/cmrepos/clientsdk</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DemoApps/AppScotchDemo/AppScotchDemo.xcodeproj/project.xcworkspace</string>
+	<string>ios/DemoApps/AppScotchDemo/AppScotchDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B6258CC5-9187-4047-B284-986CF2B45D99</key>
-		<string>../../../..</string>
+		<key>335E9E6C61FC3DC0C87FF9335463749526EF8F8E</key>
+		<string>../../../../../../AppScotch-iOS-SDK</string>
+		<key>87F17DD6B18379EB1067763CAFD764BCC806ED91</key>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/AppScotch/AppScotch-iOS-SDK.git</string>
+	<string>https://github.com/cmrepos/clientsdk</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B6258CC5-9187-4047-B284-986CF2B45D99</string>
+	<string>87F17DD6B18379EB1067763CAFD764BCC806ED91</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B6258CC5-9187-4047-B284-986CF2B45D99</string>
+			<string>335E9E6C61FC3DC0C87FF9335463749526EF8F8E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AppScotch-iOS-SDK</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87F17DD6B18379EB1067763CAFD764BCC806ED91</string>
+			<key>IDESourceControlWCCName</key>
+			<string>clientsdk</string>
 		</dict>
 	</array>
 </dict>
