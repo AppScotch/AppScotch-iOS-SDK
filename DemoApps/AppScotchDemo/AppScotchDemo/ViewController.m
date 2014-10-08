@@ -26,7 +26,7 @@
 {
     self.playButton.enabled = NO;
     [self.playButton setAlpha:0.5];
-    [AppScotch playAd];
+    [AppScotch playAd:self];
 }
 
 - (void)onAdAvailable

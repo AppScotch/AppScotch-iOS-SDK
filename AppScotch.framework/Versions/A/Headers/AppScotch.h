@@ -1,5 +1,9 @@
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 #define DEFERED_FETCH_OPTION_KEY @"deferedFetch"
-#define APPSCOTCH_VERSION @"2.0.0"
+#define APPSCOTCH_VERSION @"2.0.1"
+
 
 /**  Delegate protocol for AppScotch
  */
@@ -66,8 +70,7 @@
  *  
  *  @return YES/NO to indicate if an ad is ready and will be displayed.
  */
-+ (BOOL) playAd;
-+ (BOOL) playAd:(NSDictionary*)options;
++ (BOOL) playAd:(UIViewController*)vc;
 
 
 
@@ -89,5 +92,3 @@
 
 + (void) setDelegate:(id<AppScotchDelegate>)delegate;
 @end
-
-
